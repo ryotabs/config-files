@@ -1,47 +1,49 @@
-Xft.dpi: 180
+
+Xft.dpi: 200
 Xft.autohint: 0
 Xft.lcdfilter: lcddefault
 Xft.hintstyle: hintfull
-Xft.hinting 1
+Xft.hinting: 1
 Xft.antialias: 1
 Xft.rgba: rgb
 
-URxvt.font: xft:monspace:size=10
-Urxvt.scrollBar: false
+URxvt.font: xft:monospace:size=12
+URxvt.scrollBar: false
 
-!special
-*.foreground:  #c7cfdf
-*.background:  #090d12
-*.cursorColor: #c7cfdf
+! special
+*.foreground:   #bfe0e8
+*.background:   #040607
+*.cursorColor:  #bfe0e8
 
 ! black
-*.color0:      #11161d
-*.color8:      #50dad6
+*.color0:       #070c0d
+*.color8:       #a6ebf9
 
 ! red
-*.color1:      #191f28
-*.color9:      #f3b0b3
+*.color1:       #11181a
+*.color9:       #c9c5ec
 
 ! green
-*.color2:      #28303d
-*.color10:     #48bfbc
+*.color2:       #202a2d
+*.color10:      #e8b9d4
 
 ! yellow
-*.color3:      #3d485a
-*.color11:     #bda452
+*.color3:       #49d2f7
+*.color11:      #5efaba
 
 ! blue
-*.color4:      #58687e
-*.color12:     #6ad7d4
+*.color4:       #4e6368
+*.color12:      #53c8db
 
 ! magenta
-*.color5:      #778aaa
-*.color13:     #75e07b
+*.color5:       #6d8a91
+*.color13:      #93ddec
 
 ! cyan
-*.color6:      #a6b4cd
-*.color14:     #e0c56d
+*.color6:       #92b7c0
+*.color14:      #f5c8b8
 
 ! white
-*.color7:      #dee3ec
-*.color15:     #b8caeb
+*.color7:       #cee7ed
+*.color15:      #6cc19a
+
