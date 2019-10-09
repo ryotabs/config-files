@@ -1,0 +1,18 @@
+2019-09-19T06:12:16.090Z - info: [ui] [AppStore] loading 2 repositories from store
+2019-09-19T06:12:16.091Z - info: [ui] [AppStore] found account: ryotabs (Ryota Seki)
+2019-09-19T06:12:16.551Z - info: [ui] launching: 2.1.0-linux1 (Linux 5.2.14-arch2-1-ARCH)
+2019-09-19T06:12:16.551Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2019-09-19T06:13:27.039Z - info: [ui] [AppStore] adding repository at /home/brad to store
+2019-09-19T06:14:17.613Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: voidrice - ryotabs (has token)
+2019-09-19T06:14:19.937Z - info: [ui] Background fetch for 3 repositories took 3.764sec
+2019-09-19T06:14:51.768Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 1.061s)
+2019-09-19T06:14:52.509Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 1.789s)
+2019-09-19T06:14:53.274Z - info: [ui] [AppStore] adding repository at /home/brad to store
+2019-09-19T06:14:54.127Z - info: [ui] [BranchPruner] No branches to prune.
+2019-09-19T06:15:10.187Z - info: [ui] [BranchPruner] Last prune took place in a day - skipping
+2019-09-19T06:15:13.333Z - info: [ui] [BranchPruner] Last prune took place in a day - skipping
+2019-09-19T06:17:43.879Z - info: [ui] [AppStore] loading 3 repositories from store
+2019-09-19T06:17:43.880Z - info: [ui] [AppStore] found account: ryotabs (Ryota Seki)
+2019-09-19T06:17:44.245Z - info: [ui] [BranchPruner] No branches to prune.
+2019-09-19T06:17:44.286Z - info: [ui] launching: 2.1.0-linux1 (Linux 5.2.14-arch2-1-ARCH)
+2019-09-19T06:17:44.286Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'

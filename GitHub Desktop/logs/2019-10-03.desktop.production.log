@@ -1,0 +1,54 @@
+2019-10-03T02:33:47.371Z - info: [ui] [AppStore] loading 11 repositories from store
+2019-10-03T02:33:47.375Z - info: [ui] [AppStore] found account: ryotabs (Ryota Seki)
+2019-10-03T02:33:48.308Z - info: [ui] [BranchPruner] No branches to prune.
+2019-10-03T02:33:48.425Z - info: [ui] launching: 2.1.0-linux1 (Linux 5.2.14-arch2-1-ARCH)
+2019-10-03T02:33:48.425Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2019-10-03T02:33:56.965Z - info: [ui] [Timing] Action 'create commit' for 'ryotabs/historyofsurfing' took 0.596s
+2019-10-03T02:33:59.177Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: historyofsurfing - ryotabs (has token)
+2019-10-03T02:34:04.465Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin master:master --progress (took 5.215s)
+2019-10-03T02:35:51.904Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 3.518s)
+2019-10-03T02:35:55.754Z - info: [ui] Background fetch for 11 repositories took 8.194sec
+2019-10-03T03:02:39.884Z - warn: [ui] failed fetching open PRs for repository ryotabs/historyofsurfing
+TypeError: Failed to fetch
+2019-10-03T03:02:39.885Z - error: [ui] Error refreshing pull requests for 'ryotabs/historyofsurfing'
+TypeError: Failed to fetch
+2019-10-03T03:11:21.989Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/ryotabs/ics-code.git - ryotabs (has token)
+2019-10-03T03:11:23.931Z - info: [ui] Executing clone: git -c credential.helper= -c protocol.version=2 clone --recursive --progress -- https://github.com/ryotabs/ics-code.git /home/brad/GitHub/ics-code (took 1.677s)
+2019-10-03T03:11:23.962Z - info: [ui] [AppStore] adding repository at /home/brad/GitHub/ics-code to store
+2019-10-03T03:11:24.470Z - info: [ui] [BranchPruner] No branches to prune.
+2019-10-03T03:11:25.269Z - info: [ui] [BranchPruner] No branches to prune.
+2019-10-03T03:11:26.441Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.269s)
+2019-10-03T03:14:45.827Z - info: [ui] Background fetch for 12 repositories took 5.250sec
+2019-10-03T03:29:45.547Z - info: [ui] Background fetch for 12 repositories took 4.968sec
+2019-10-03T03:42:23.557Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.340s)
+2019-10-03T03:44:45.860Z - info: [ui] Background fetch for 12 repositories took 5.283sec
+2019-10-03T03:53:35.073Z - info: [ui] [Timing] Action 'create commit' for 'ryotabs/ics-code' took 0.688s
+2019-10-03T03:53:36.034Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: ics-code - ryotabs (has token)
+2019-10-03T03:53:40.997Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin master:master --progress (took 4.882s)
+2019-10-03T03:53:42.605Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.532s)
+2019-10-03T20:22:25.843Z - info: [ui] [AppStore] loading 12 repositories from store
+2019-10-03T20:22:25.844Z - info: [ui] [AppStore] found account: ryotabs (Ryota Seki)
+2019-10-03T20:22:25.881Z - info: [ui] [BranchPruner] Last prune took place in 7 hours - skipping
+2019-10-03T20:22:26.950Z - info: [ui] launching: 2.1.0-linux1 (Linux 5.2.14-arch2-1-ARCH)
+2019-10-03T20:22:26.951Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2019-10-03T20:22:46.621Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.620s)
+2019-10-03T20:24:31.646Z - info: [ui] Background fetch for 12 repositories took 5.712sec
+2019-10-03T20:39:37.373Z - info: [ui] Background fetch for 12 repositories took 5.725sec
+2019-10-03T20:43:51.967Z - info: [ui] [BranchPruner] Pruning 0 branches that have been merged into the default branch, master (ff46209bc1897794f28acce7d7f3c0b4c8e92113), from 'browserhistory
+2019-10-03T20:43:53.349Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.703s)
+2019-10-03T20:44:09.141Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: browserhistory - ryotabs (has token)
+2019-10-03T20:44:09.726Z - info: [ui] [Timing] Action 'create branch' for 'ryotabs/browserhistory' took 0.699s
+2019-10-03T20:44:12.860Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: browserhistory - ryotabs (has token)
+2019-10-03T20:44:17.045Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin multipage --set-upstream --progress (took 4.094s)
+2019-10-03T20:44:18.843Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.763s)
+2019-10-03T20:54:38.007Z - info: [ui] Background fetch for 12 repositories took 5.555sec
+2019-10-03T20:56:27.363Z - info: [ui] [Timing] Action 'create commit' for 'ryotabs/browserhistory' took 0.608s
+2019-10-03T20:56:29.779Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: browserhistory - ryotabs (has token)
+2019-10-03T20:56:35.024Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin multipage:multipage --progress (took 5.167s)
+2019-10-03T20:56:36.845Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.747s)
+2019-10-03T21:09:37.865Z - info: [ui] Background fetch for 12 repositories took 5.412sec
+2019-10-03T21:24:37.554Z - info: [ui] Background fetch for 12 repositories took 5.101sec
+2019-10-03T21:39:37.450Z - info: [ui] Background fetch for 12 repositories took 4.996sec
+2019-10-03T21:48:38.024Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1009.188s)
+2019-10-03T21:54:37.436Z - info: [ui] Background fetch for 12 repositories took 4.983sec
+2019-10-03T22:09:38.090Z - info: [ui] Background fetch for 12 repositories took 5.638sec

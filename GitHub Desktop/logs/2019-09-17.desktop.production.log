@@ -1,0 +1,31 @@
+2019-09-17T15:46:15.773Z - info: [ui] [AppStore] loading 1 repositories from store
+2019-09-17T15:46:15.774Z - info: [ui] [AppStore] found account: ryotabs (Ryota Seki)
+2019-09-17T15:46:16.229Z - info: [ui] launching: 2.1.0-linux1 (Linux 5.2.13-arch1-1-ARCH)
+2019-09-17T15:46:16.229Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2019-09-17T15:46:28.750Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/ryotabs/config-files.git - ryotabs (has token)
+2019-09-17T15:46:29.632Z - info: [ui] [AppStore] adding repository at /home/brad/GitHub/config-files to store
+2019-09-17T15:46:29.923Z - info: [ui] [BranchPruner] Last prune took place in a day - skipping
+2019-09-17T15:46:31.480Z - info: [ui] [BranchPruner] Last prune took place in a day - skipping
+2019-09-17T15:47:18.545Z - info: [ui] [Timing] Action 'create commit' for 'ryotabs/config-files' took 0.328s
+2019-09-17T15:47:20.110Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: config-files - ryotabs (has token)
+2019-09-17T15:47:25.125Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin master:master --progress (took 4.955s)
+2019-09-17T15:48:16.827Z - info: [ui] Background fetch for 2 repositories took 0.997sec
+2019-09-17T16:03:17.346Z - info: [ui] Background fetch for 2 repositories took 0.518sec
+2019-09-17T16:18:17.490Z - info: [ui] Background fetch for 2 repositories took 0.662sec
+2019-09-17T16:18:47.965Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 2.126s)
+2019-09-17T16:33:17.536Z - info: [ui] Background fetch for 2 repositories took 0.708sec
+2019-09-17T16:48:18.713Z - info: [ui] Background fetch for 2 repositories took 1.885sec
+2019-09-17T17:03:17.546Z - info: [ui] Background fetch for 2 repositories took 0.718sec
+2019-09-17T17:10:21.277Z - info: [ui] [BranchPruner] No branches to prune.
+2019-09-17T17:12:51.790Z - info: [ui] [Timing] Action 'create commit' for 'ryotabs/config-files' took 0.367s
+2019-09-17T17:16:59.330Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: config-files - ryotabs (has token)
+2019-09-17T17:17:04.763Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin master:master --progress (took 5.291s)
+2019-09-17T17:18:17.610Z - info: [ui] Background fetch for 2 repositories took 0.782sec
+2019-09-17T20:27:39.928Z - info: [ui] [AppStore] loading 2 repositories from store
+2019-09-17T20:27:39.930Z - info: [ui] [AppStore] found account: ryotabs (Ryota Seki)
+2019-09-17T20:27:40.817Z - info: [ui] launching: 2.1.0-linux1 (Linux 5.2.14-arch2-1-ARCH)
+2019-09-17T20:27:40.817Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2019-09-17T20:29:40.982Z - info: [ui] Background fetch for 2 repositories took 0.855sec
+2019-09-17T20:36:59.935Z - info: [main] Received possible protocol arguments: 1
+2019-09-17T21:21:02.401Z - info: [ui] Background fetch for 2 repositories took 0.782sec
+2019-09-17T21:36:02.573Z - info: [ui] Background fetch for 2 repositories took 0.954sec

@@ -1,0 +1,48 @@
+2019-09-24T04:47:48.352Z - info: [ui] [AppStore] loading 5 repositories from store
+2019-09-24T04:47:48.353Z - info: [ui] [AppStore] found account: ryotabs (Ryota Seki)
+2019-09-24T04:47:48.840Z - info: [ui] launching: 2.1.0-linux1 (Linux 5.2.14-arch2-1-ARCH)
+2019-09-24T04:47:48.841Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2019-09-24T04:47:56.558Z - info: [ui] [AppStore] adding repository at /home/brad/GitHub/ziplist to store
+2019-09-24T04:49:51.443Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 2.228s)
+2019-09-24T04:49:52.470Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: ziplist - ryotabs (has token)
+2019-09-24T04:49:53.593Z - info: [ui] Background fetch for 6 repositories took 5.151sec
+2019-09-24T05:04:55.287Z - info: [ui] Background fetch for 6 repositories took 1.701sec
+2019-09-24T05:10:15.708Z - warn: [ui] fetchAll: 'repos/ryotabs/ziplist/pulls?state=open' returned a 404
+2019-09-24T05:10:18.762Z - info: [ui] [BranchPruner] No branches to prune.
+2019-09-24T05:12:11.888Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: ryotabs.github.io - ryotabs (has token)
+2019-09-24T05:12:44.081Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/ryotabs/ziplist.git - ryotabs (has token)
+2019-09-24T05:12:44.936Z - info: [ui] [AppStore] adding repository at /home/brad/GitHub/ziplist to store
+2019-09-24T05:12:45.345Z - info: [ui] [BranchPruner] No branches to prune.
+2019-09-24T05:12:45.876Z - info: [ui] [BranchPruner] No branches to prune.
+2019-09-24T05:19:03.789Z - info: [ui] [Timing] Action 'create commit' for 'ryotabs/ziplist' took 0.347s
+2019-09-24T05:19:04.938Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: ziplist - ryotabs (has token)
+2019-09-24T05:19:10.036Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin master:master --progress (took 5.020s)
+2019-09-24T05:19:55.499Z - info: [ui] Background fetch for 6 repositories took 1.914sec
+2019-09-24T05:34:55.589Z - info: [ui] Background fetch for 6 repositories took 2.002sec
+2019-09-24T05:49:55.871Z - info: [ui] Background fetch for 6 repositories took 2.286sec
+2019-09-24T06:04:56.152Z - info: [ui] Background fetch for 6 repositories took 2.567sec
+2019-09-24T06:19:55.476Z - info: [ui] Background fetch for 6 repositories took 1.890sec
+2019-09-24T06:34:55.729Z - info: [ui] Background fetch for 6 repositories took 2.143sec
+2019-09-24T06:49:55.531Z - info: [ui] Background fetch for 6 repositories took 1.945sec
+2019-09-24T07:04:55.969Z - info: [ui] Background fetch for 6 repositories took 2.383sec
+2019-09-24T07:19:55.501Z - info: [ui] Background fetch for 6 repositories took 1.914sec
+2019-09-24T07:34:56.192Z - info: [ui] Background fetch for 6 repositories took 2.607sec
+2019-09-24T21:01:20.403Z - info: [ui] [AppStore] loading 6 repositories from store
+2019-09-24T21:01:20.406Z - info: [ui] [AppStore] found account: ryotabs (Ryota Seki)
+2019-09-24T21:01:20.497Z - info: [ui] [BranchPruner] Last prune took place in 8 hours - skipping
+2019-09-24T21:01:21.383Z - info: [ui] launching: 2.1.0-linux1 (Linux 5.2.14-arch2-1-ARCH)
+2019-09-24T21:01:21.383Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2019-09-24T21:02:01.146Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/ryotabs/fiberoo.git - ryotabs (has token)
+2019-09-24T21:02:02.993Z - info: [ui] Executing clone: git -c credential.helper= -c protocol.version=2 clone --recursive --progress -- https://github.com/ryotabs/fiberoo.git /home/brad/GitHub/fiberoo (took 1.583s)
+2019-09-24T21:02:03.019Z - info: [ui] [AppStore] adding repository at /home/brad/GitHub/fiberoo to store
+2019-09-24T21:02:03.414Z - info: [ui] [BranchPruner] No branches to prune.
+2019-09-24T21:02:04.019Z - info: [ui] [BranchPruner] No branches to prune.
+2019-09-24T21:02:05.300Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.352s)
+2019-09-24T21:03:24.913Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 3.360s)
+2019-09-24T21:03:26.725Z - info: [ui] Background fetch for 7 repositories took 6.145sec
+2019-09-24T21:18:30.239Z - info: [ui] Background fetch for 7 repositories took 3.513sec
+2019-09-24T21:20:19.949Z - info: [ui] [Timing] Action 'create commit' for 'ryotabs/fiberoo' took 0.712s
+2019-09-24T21:20:21.427Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: fiberoo - ryotabs (has token)
+2019-09-24T21:20:26.874Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin master:master --progress (took 5.371s)
+2019-09-24T21:20:28.267Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.363s)
+2019-09-24T21:33:29.947Z - info: [ui] Background fetch for 7 repositories took 3.220sec

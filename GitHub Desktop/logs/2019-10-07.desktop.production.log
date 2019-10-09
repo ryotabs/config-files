@@ -1,0 +1,21 @@
+2019-10-07T06:04:13.948Z - info: [ui] [AppStore] loading 13 repositories from store
+2019-10-07T06:04:13.952Z - info: [ui] [AppStore] found account: ryotabs (Ryota Seki)
+2019-10-07T06:04:14.102Z - info: [ui] launching: 2.1.0-linux1 (Linux 5.2.14-arch2-1-ARCH)
+2019-10-07T06:04:14.102Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2019-10-07T06:04:14.435Z - warn: [ui] fetchAll: 'repos/ryotabs/314essay-lint/pulls?state=open' returned a 404
+2019-10-07T06:06:17.193Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 2.403s)
+2019-10-07T06:06:17.662Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: voidrice - ryotabs (has token)
+2019-10-07T06:06:22.738Z - info: [ui] Background fetch for 13 repositories took 8.751sec
+2019-10-07T06:08:23.571Z - warn: [ui] fetchAll: 'repos/ryotabs/314essay-lint/pulls?state=open' returned a 404
+2019-10-07T06:08:28.263Z - info: [ui] [BranchPruner] Pruning 0 branches that have been merged into the default branch, master (ff46209bc1897794f28acce7d7f3c0b4c8e92113), from 'browserhistory
+2019-10-07T06:08:29.492Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.438s)
+2019-10-07T06:08:38.341Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: browserhistory - ryotabs (has token)
+2019-10-07T06:08:38.687Z - info: [ui] [Timing] Action 'create branch' for 'ryotabs/browserhistory' took 0.420s
+2019-10-07T06:08:40.833Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: browserhistory - ryotabs (has token)
+2019-10-07T06:08:44.508Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin semantic-1 --set-upstream --progress (took 3.625s)
+2019-10-07T06:08:45.789Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.238s)
+2019-10-07T06:21:26.414Z - info: [ui] Background fetch for 13 repositories took 3.674sec
+2019-10-07T06:27:31.224Z - info: [ui] [Timing] Action 'create commit' for 'ryotabs/browserhistory' took 0.424s
+2019-10-07T06:27:34.077Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: browserhistory - ryotabs (has token)
+2019-10-07T06:27:38.259Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin semantic-1:semantic-1 --progress (took 4.104s)
+2019-10-07T06:27:39.650Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.364s)

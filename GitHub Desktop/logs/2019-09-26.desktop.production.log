@@ -1,0 +1,108 @@
+2019-09-26T02:33:21.180Z - info: [ui] [AppStore] loading 7 repositories from store
+2019-09-26T02:33:21.184Z - info: [ui] [AppStore] found account: ryotabs (Ryota Seki)
+2019-09-26T02:33:21.914Z - info: [ui] [BranchPruner] No branches to prune.
+2019-09-26T02:33:22.022Z - info: [ui] launching: 2.1.0-linux1 (Linux 5.2.14-arch2-1-ARCH)
+2019-09-26T02:33:22.022Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2019-09-26T02:33:25.851Z - info: [ui] [AppStore] loading 7 repositories from store
+2019-09-26T02:33:25.853Z - info: [ui] [AppStore] found account: ryotabs (Ryota Seki)
+2019-09-26T02:33:25.891Z - info: [ui] [BranchPruner] Last prune took place in a day - skipping
+2019-09-26T02:33:26.752Z - info: [ui] launching: 2.1.0-linux1 (Linux 5.2.14-arch2-1-ARCH)
+2019-09-26T02:33:26.753Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2019-09-26T02:59:10.365Z - info: [ui] [AppStore] loading 7 repositories from store
+2019-09-26T02:59:10.367Z - info: [ui] [AppStore] found account: ryotabs (Ryota Seki)
+2019-09-26T02:59:10.409Z - info: [ui] [BranchPruner] Last prune took place in a day - skipping
+2019-09-26T02:59:11.322Z - info: [ui] launching: 2.1.0-linux1 (Linux 5.2.14-arch2-1-ARCH)
+2019-09-26T02:59:11.322Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2019-09-26T02:59:20.055Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.146s)
+2019-09-26T03:01:15.632Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 3.502s)
+2019-09-26T03:01:17.506Z - info: [ui] Background fetch for 7 repositories took 6.514sec
+2019-09-26T03:06:41.113Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/ryotabs/library-security.git - ryotabs (has token)
+2019-09-26T03:06:42.846Z - info: [ui] Executing clone: git -c credential.helper= -c protocol.version=2 clone --recursive --progress -- https://github.com/ryotabs/library-security.git /home/brad/GitHub/library-security (took 1.516s)
+2019-09-26T03:06:42.912Z - info: [ui] [AppStore] adding repository at /home/brad/GitHub/library-security to store
+2019-09-26T03:06:44.185Z - info: [ui] [BranchPruner] No branches to prune.
+2019-09-26T03:06:45.474Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.352s)
+2019-09-26T03:16:21.531Z - info: [ui] Background fetch for 8 repositories took 4.024sec
+2019-09-26T03:31:21.017Z - info: [ui] Background fetch for 8 repositories took 3.510sec
+2019-09-26T03:37:40.183Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.386s)
+2019-09-26T04:29:43.888Z - info: [ui] [AppStore] loading 8 repositories from store
+2019-09-26T04:29:43.889Z - info: [ui] [AppStore] found account: ryotabs (Ryota Seki)
+2019-09-26T04:29:43.908Z - info: [ui] [BranchPruner] Last prune took place in a day - skipping
+2019-09-26T04:29:44.457Z - info: [ui] launching: 2.1.0-linux1 (Linux 5.2.14-arch2-1-ARCH)
+2019-09-26T04:29:44.458Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2019-09-26T04:29:52.344Z - info: [ui] [BranchPruner] No branches to prune.
+2019-09-26T04:30:21.136Z - info: [ui] [Timing] Action 'create commit' for 'ryotabs/ryotabs.github.io' took 0.392s
+2019-09-26T04:31:46.984Z - info: [ui] Background fetch for 8 repositories took 3.046sec
+2019-09-26T04:32:08.309Z - info: [ui] [Timing] Action 'create commit' for 'ryotabs/ryotabs.github.io' took 0.396s
+2019-09-26T04:32:09.328Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: ryotabs.github.io - ryotabs (has token)
+2019-09-26T04:32:14.380Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin master:master --progress (took 4.981s)
+2019-09-26T04:46:49.339Z - info: [ui] Background fetch for 8 repositories took 2.354sec
+2019-09-26T05:01:50.812Z - info: [ui] Background fetch for 8 repositories took 3.828sec
+2019-09-26T05:16:49.488Z - info: [ui] Background fetch for 8 repositories took 2.502sec
+2019-09-26T05:31:49.575Z - info: [ui] Background fetch for 8 repositories took 2.590sec
+2019-09-26T05:46:49.572Z - info: [ui] Background fetch for 8 repositories took 2.588sec
+2019-09-26T06:01:49.620Z - info: [ui] Background fetch for 8 repositories took 2.634sec
+2019-09-26T06:16:50.057Z - info: [ui] Background fetch for 8 repositories took 3.073sec
+2019-09-26T06:31:49.537Z - info: [ui] Background fetch for 8 repositories took 2.552sec
+2019-09-26T06:46:49.513Z - info: [ui] Background fetch for 8 repositories took 2.528sec
+2019-09-26T07:01:49.867Z - info: [ui] Background fetch for 8 repositories took 2.883sec
+2019-09-26T07:10:06.389Z - info: [ui] [Timing] Action 'create commit' for 'ryotabs/ryotabs.github.io' took 0.417s
+2019-09-26T07:10:08.378Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: ryotabs.github.io - ryotabs (has token)
+2019-09-26T07:10:13.506Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin master:master --progress (took 5.062s)
+2019-09-26T07:16:49.860Z - info: [ui] Background fetch for 8 repositories took 2.875sec
+2019-09-26T07:19:39.516Z - info: [ui] [Timing] Action 'create commit' for 'ryotabs/ryotabs.github.io' took 0.394s
+2019-09-26T07:19:41.202Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: ryotabs.github.io - ryotabs (has token)
+2019-09-26T07:19:48.455Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin master:master --progress (took 7.198s)
+2019-09-26T07:31:50.007Z - info: [ui] Background fetch for 8 repositories took 3.022sec
+2019-09-26T07:46:49.772Z - info: [ui] Background fetch for 8 repositories took 2.787sec
+2019-09-26T08:01:50.019Z - info: [ui] Background fetch for 8 repositories took 3.035sec
+2019-09-26T16:04:20.148Z - info: [ui] [AppStore] loading 8 repositories from store
+2019-09-26T16:04:20.150Z - info: [ui] [AppStore] found account: ryotabs (Ryota Seki)
+2019-09-26T16:04:20.206Z - info: [ui] [BranchPruner] Last prune took place in 12 hours - skipping
+2019-09-26T16:04:20.744Z - info: [ui] launching: 2.1.0-linux1 (Linux 5.2.14-arch2-1-ARCH)
+2019-09-26T16:04:20.744Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2019-09-26T16:06:23.275Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 2.392s)
+2019-09-26T16:06:25.024Z - info: [ui] Background fetch for 8 repositories took 4.765sec
+2019-09-26T16:21:27.732Z - info: [ui] Background fetch for 8 repositories took 2.707sec
+2019-09-26T16:36:27.671Z - info: [ui] Background fetch for 8 repositories took 2.645sec
+2019-09-26T16:37:22.477Z - info: [ui] [Timing] Action 'create commit' for 'ryotabs/ryotabs.github.io' took 0.354s
+2019-09-26T16:37:25.521Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: ryotabs.github.io - ryotabs (has token)
+2019-09-26T16:37:30.474Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin master:master --progress (took 4.899s)
+2019-09-26T16:51:27.488Z - info: [ui] Background fetch for 8 repositories took 2.462sec
+2019-09-26T16:52:36.635Z - info: [ui] [Timing] Action 'create commit' for 'ryotabs/ryotabs.github.io' took 0.311s
+2019-09-26T16:52:38.873Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: ryotabs.github.io - ryotabs (has token)
+2019-09-26T16:52:43.807Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin master:master --progress (took 4.891s)
+2019-09-26T17:06:27.912Z - info: [ui] Background fetch for 8 repositories took 2.886sec
+2019-09-26T17:21:28.215Z - info: [ui] Background fetch for 8 repositories took 3.190sec
+2019-09-26T17:36:27.635Z - info: [ui] Background fetch for 8 repositories took 2.609sec
+2019-09-26T19:11:55.689Z - info: [ui] [AppStore] loading 8 repositories from store
+2019-09-26T19:11:55.692Z - info: [ui] [AppStore] found account: ryotabs (Ryota Seki)
+2019-09-26T19:11:55.795Z - info: [ui] [BranchPruner] Last prune took place in 9 hours - skipping
+2019-09-26T19:11:56.852Z - info: [ui] launching: 2.1.0-linux1 (Linux 5.2.14-arch2-1-ARCH)
+2019-09-26T19:11:56.852Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2019-09-26T19:14:00.164Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 3.351s)
+2019-09-26T19:14:03.212Z - info: [ui] Background fetch for 8 repositories took 7.305sec
+2019-09-26T20:28:31.878Z - info: [ui] [AppStore] loading 8 repositories from store
+2019-09-26T20:28:31.879Z - info: [ui] [AppStore] found account: ryotabs (Ryota Seki)
+2019-09-26T20:28:31.923Z - info: [ui] [BranchPruner] Last prune took place in 8 hours - skipping
+2019-09-26T20:28:32.773Z - info: [ui] launching: 2.1.0-linux1 (Linux 5.2.14-arch2-1-ARCH)
+2019-09-26T20:28:32.774Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2019-09-26T20:30:44.064Z - info: [ui] [AppStore] loading 8 repositories from store
+2019-09-26T20:30:44.065Z - info: [ui] [AppStore] found account: ryotabs (Ryota Seki)
+2019-09-26T20:30:44.112Z - info: [ui] [BranchPruner] Last prune took place in 8 hours - skipping
+2019-09-26T20:30:44.769Z - info: [ui] launching: 2.1.0-linux1 (Linux 5.2.14-arch2-1-ARCH)
+2019-09-26T20:30:44.769Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2019-09-26T20:32:48.354Z - info: [ui] Background fetch for 8 repositories took 4.183sec
+2019-09-26T20:34:01.832Z - info: [ui] [Timing] Action 'create commit' for 'ryotabs/ryotabs.github.io' took 0.583s
+2019-09-26T20:34:03.326Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: ryotabs.github.io - ryotabs (has token)
+2019-09-26T20:34:10.904Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin master:master --progress (took 7.507s)
+2019-09-26T20:45:36.479Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/ryotabs/fivetimes.git - ryotabs (has token)
+2019-09-26T20:45:38.335Z - info: [ui] Executing clone: git -c credential.helper= -c protocol.version=2 clone --recursive --progress -- https://github.com/ryotabs/fivetimes.git /home/brad/GitHub/fivetimes (took 1.609s)
+2019-09-26T20:45:38.371Z - info: [ui] [AppStore] adding repository at /home/brad/GitHub/fivetimes to store
+2019-09-26T20:45:39.582Z - info: [ui] [BranchPruner] No branches to prune.
+2019-09-26T20:45:40.719Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.232s)
+2019-09-26T20:47:52.522Z - info: [ui] Background fetch for 9 repositories took 4.167sec
+2019-09-26T20:51:28.383Z - info: [ui] [Timing] Action 'create commit' for 'ryotabs/fivetimes' took 0.670s
+2019-09-26T20:51:29.495Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: fivetimes - ryotabs (has token)
+2019-09-26T20:51:35.779Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin master:master --progress (took 6.212s)
+2019-09-26T20:51:37.539Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.697s)
+2019-09-26T21:16:53.635Z - info: [ui] Background fetch for 9 repositories took 4.095sec

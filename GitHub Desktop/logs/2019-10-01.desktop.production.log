@@ -1,0 +1,89 @@
+2019-10-01T04:43:50.321Z - info: [ui] [AppStore] loading 10 repositories from store
+2019-10-01T04:43:50.322Z - info: [ui] [AppStore] found account: ryotabs (Ryota Seki)
+2019-10-01T04:43:50.793Z - info: [ui] launching: 2.1.0-linux1 (Linux 5.2.14-arch2-1-ARCH)
+2019-10-01T04:43:50.794Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2019-10-01T04:43:53.918Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: browserhistory - ryotabs (has token)
+2019-10-01T04:45:32.717Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: browserhistory - ryotabs (has token)
+2019-10-01T04:45:32.998Z - info: [ui] [Timing] Action 'create branch' for 'ryotabs/browserhistory' took 0.312s
+2019-10-01T04:45:37.057Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: browserhistory - ryotabs (has token)
+2019-10-01T04:45:41.924Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin css-1 --set-upstream --progress (took 4.810s)
+2019-10-01T04:45:50.442Z - info: [main] opening in browser: https://github.com/ryotabs/browserhistory
+2019-10-01T04:45:50.724Z - info: [main] opening in browser: https://github.com/ryotabs/browserhistory
+2019-10-01T04:45:53.185Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 2.194s)
+2019-10-01T04:45:55.715Z - info: [ui] Background fetch for 10 repositories took 5.329sec
+2019-10-01T04:46:09.452Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: browserhistory - ryotabs (has token)
+2019-10-01T04:46:09.748Z - info: [ui] [Timing] Action 'checkout branch from list' for 'ryotabs/browserhistory' took 0.290s
+2019-10-01T04:46:11.348Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: browserhistory - ryotabs (has token)
+2019-10-01T04:46:11.603Z - info: [ui] [Timing] Action 'checkout branch from list' for 'ryotabs/browserhistory' took 0.238s
+2019-10-01T04:47:54.536Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: browserhistory - ryotabs (has token)
+2019-10-01T04:47:54.883Z - info: [ui] [Timing] Action 'create branch' for 'ryotabs/browserhistory' took 0.372s
+2019-10-01T04:47:56.260Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: browserhistory - ryotabs (has token)
+2019-10-01T04:48:01.081Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin css-2 --set-upstream --progress (took 4.749s)
+2019-10-01T05:00:59.328Z - info: [ui] Background fetch for 10 repositories took 3.610sec
+2019-10-01T05:15:57.532Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 1.202s)
+2019-10-01T05:16:00.680Z - info: [ui] Background fetch for 10 repositories took 4.964sec
+2019-10-01T05:30:57.539Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 1.086s)
+2019-10-01T05:31:00.987Z - info: [ui] Background fetch for 10 repositories took 5.271sec
+2019-10-01T05:45:57.906Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 1.186s)
+2019-10-01T05:46:01.727Z - info: [ui] Background fetch for 10 repositories took 6.010sec
+2019-10-01T06:00:58.857Z - info: [ui] Background fetch for 10 repositories took 3.139sec
+2019-10-01T06:15:59.781Z - info: [ui] Background fetch for 10 repositories took 4.065sec
+2019-10-01T06:23:47.782Z - info: [ui] [Timing] Action 'create commit' for 'ryotabs/browserhistory' took 0.415s
+2019-10-01T06:23:48.802Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: browserhistory - ryotabs (has token)
+2019-10-01T06:23:55.435Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin css-2:css-2 --progress (took 6.579s)
+2019-10-01T06:28:46.029Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: browserhistory - ryotabs (has token)
+2019-10-01T06:28:46.390Z - info: [ui] [Timing] Action 'create branch' for 'ryotabs/browserhistory' took 0.416s
+2019-10-01T06:28:49.202Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: browserhistory - ryotabs (has token)
+2019-10-01T06:28:55.335Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin css-3 --set-upstream --progress (took 6.067s)
+2019-10-01T06:30:59.321Z - info: [ui] Background fetch for 10 repositories took 3.604sec
+2019-10-01T06:38:47.810Z - info: [ui] [Timing] Action 'create commit' for 'ryotabs/browserhistory' took 0.399s
+2019-10-01T06:38:49.305Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: browserhistory - ryotabs (has token)
+2019-10-01T06:38:55.353Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin css-3:css-3 --progress (took 5.993s)
+2019-10-01T06:46:00.043Z - info: [ui] Background fetch for 10 repositories took 4.326sec
+2019-10-01T14:42:35.331Z - info: [ui] [AppStore] loading 10 repositories from store
+2019-10-01T14:42:35.332Z - info: [ui] [AppStore] found account: ryotabs (Ryota Seki)
+2019-10-01T14:42:35.350Z - info: [ui] [BranchPruner] Last prune took place in 14 hours - skipping
+2019-10-01T14:42:35.865Z - info: [ui] launching: 2.1.0-linux1 (Linux 5.2.14-arch2-1-ARCH)
+2019-10-01T14:42:35.866Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2019-10-01T14:44:36.903Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: voidrice - ryotabs (has token)
+2019-10-01T14:44:40.915Z - info: [ui] Background fetch for 10 repositories took 5.538sec
+2019-10-01T14:45:49.814Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: browserhistory - ryotabs (has token)
+2019-10-01T14:45:50.181Z - info: [ui] [Timing] Action 'create branch' for 'ryotabs/browserhistory' took 0.454s
+2019-10-01T14:45:54.629Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: browserhistory - ryotabs (has token)
+2019-10-01T14:45:59.774Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin columns-1 --set-upstream --progress (took 5.105s)
+2019-10-01T14:59:44.607Z - info: [ui] Background fetch for 10 repositories took 3.691sec
+2019-10-01T15:14:44.640Z - info: [ui] Background fetch for 10 repositories took 3.724sec
+2019-10-01T15:15:41.713Z - info: [ui] [Timing] Action 'create commit' for 'ryotabs/browserhistory' took 0.405s
+2019-10-01T15:15:47.333Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: browserhistory - ryotabs (has token)
+2019-10-01T15:15:53.786Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin columns-1:columns-1 --progress (took 6.382s)
+2019-10-01T15:16:13.866Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: browserhistory - ryotabs (has token)
+2019-10-01T15:16:14.255Z - info: [ui] [Timing] Action 'create branch' for 'ryotabs/browserhistory' took 0.474s
+2019-10-01T15:16:15.786Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: browserhistory - ryotabs (has token)
+2019-10-01T15:16:20.722Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin columns-2 --set-upstream --progress (took 4.869s)
+2019-10-01T15:27:22.760Z - info: [ui] [Timing] Action 'create commit' for 'ryotabs/browserhistory' took 0.420s
+2019-10-01T15:27:25.387Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: browserhistory - ryotabs (has token)
+2019-10-01T15:27:30.299Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin columns-2:columns-2 --progress (took 4.845s)
+2019-10-01T15:28:30.761Z - info: [main] opening in browser: https://github.com/ryotabs/browserhistory/pull/new/columns-2
+2019-10-01T15:29:45.159Z - info: [ui] Background fetch for 10 repositories took 4.243sec
+2019-10-01T15:31:30.669Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: browserhistory - ryotabs (has token)
+2019-10-01T15:31:30.982Z - info: [ui] [Timing] Action 'checkout branch from list' for 'ryotabs/browserhistory' took 0.313s
+2019-10-01T15:31:33.457Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: browserhistory - ryotabs (has token)
+2019-10-01T15:31:33.733Z - info: [ui] [Timing] Action 'checkout branch from list' for 'ryotabs/browserhistory' took 0.276s
+2019-10-01T15:31:39.460Z - info: [main] opening in browser: https://github.com/ryotabs/browserhistory
+2019-10-01T15:42:05.722Z - info: [main] opening in browser: https://github.com/ryotabs/browserhistory
+2019-10-01T20:24:15.103Z - info: [ui] [AppStore] loading 10 repositories from store
+2019-10-01T20:24:15.105Z - info: [ui] [AppStore] found account: ryotabs (Ryota Seki)
+2019-10-01T20:24:15.265Z - info: [ui] [BranchPruner] Last prune took place in 8 hours - skipping
+2019-10-01T20:24:15.948Z - info: [ui] launching: 2.1.0-linux1 (Linux 5.2.14-arch2-1-ARCH)
+2019-10-01T20:24:15.949Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2019-10-01T20:26:19.813Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 3.577s)
+2019-10-01T20:26:23.051Z - info: [ui] Background fetch for 10 repositories took 7.792sec
+2019-10-01T20:41:27.554Z - info: [ui] Background fetch for 10 repositories took 4.502sec
+2019-10-01T20:45:44.678Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/ryotabs/historyofsurfing.git - ryotabs (has token)
+2019-10-01T20:45:45.816Z - info: [ui] [AppStore] adding repository at /home/brad/GitHub/historyofsurfing to store
+2019-10-01T20:45:46.336Z - info: [ui] [BranchPruner] No branches to prune.
+2019-10-01T20:45:47.129Z - info: [ui] [BranchPruner] No branches to prune.
+2019-10-01T20:56:28.476Z - info: [ui] Background fetch for 11 repositories took 5.424sec
+2019-10-01T21:11:28.464Z - info: [ui] Background fetch for 11 repositories took 5.413sec
+2019-10-01T21:26:28.668Z - info: [ui] Background fetch for 11 repositories took 5.615sec
+2019-10-01T21:41:28.042Z - info: [ui] Background fetch for 11 repositories took 4.991sec

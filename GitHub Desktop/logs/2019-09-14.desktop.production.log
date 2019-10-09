@@ -1,0 +1,4 @@
+2019-09-14T06:41:25.503Z - info: [ui] [AppStore] loading 1 repositories from store
+2019-09-14T06:41:25.505Z - info: [ui] [AppStore] found account: ryotabs (Ryota Seki)
+2019-09-14T06:41:26.028Z - info: [ui] launching: 2.1.0-linux1 (Linux 5.2.13-arch1-1-ARCH)
+2019-09-14T06:41:26.028Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'

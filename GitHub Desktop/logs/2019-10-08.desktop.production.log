@@ -1,0 +1,270 @@
+2019-10-08T05:49:46.330Z - info: [ui] [AppStore] loading 13 repositories from store
+2019-10-08T05:49:46.330Z - info: [ui] [AppStore] found account: ryotabs (Ryota Seki)
+2019-10-08T05:49:46.845Z - info: [ui] launching: 2.1.0-linux1 (Linux 5.2.14-arch2-1-ARCH)
+2019-10-08T05:49:46.845Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2019-10-08T05:50:16.689Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.260s)
+2019-10-08T05:51:49.976Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 2.889s)
+2019-10-08T05:51:52.866Z - info: [ui] Background fetch for 13 repositories took 6.494sec
+2019-10-08T05:58:27.022Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/ryotabs/islandsnow.git - ryotabs (has token)
+2019-10-08T05:58:28.191Z - info: [ui] Executing clone: git -c credential.helper= -c protocol.version=2 clone --recursive --progress -- https://github.com/ryotabs/islandsnow.git /home/brad/GitHub/islandsnow (took 1.008s)
+2019-10-08T05:58:28.209Z - info: [ui] [AppStore] adding repository at /home/brad/GitHub/islandsnow to store
+2019-10-08T05:58:29.156Z - info: [ui] [BranchPruner] No branches to prune.
+2019-10-08T06:06:57.009Z - info: [ui] Background fetch for 14 repositories took 4.142sec
+2019-10-08T06:21:56.878Z - info: [ui] Background fetch for 14 repositories took 4.010sec
+2019-10-08T06:36:57.126Z - info: [ui] Background fetch for 14 repositories took 4.259sec
+2019-10-08T06:51:57.549Z - info: [ui] Background fetch for 14 repositories took 4.682sec
+2019-10-08T07:04:24.720Z - error: [ui] Error performing periodic fetch for 'ryotabs/islandsnow'
+Error: Unable to find path to repository on disk.
+    at /home/brad/webpack:/app/node_modules/dugite/build/lib/git-process.js:87:1
+    at exithandler (child_process.js:310:5)
+    at ChildProcess.errorhandler (child_process.js:322:5)
+    at ChildProcess.emit (events.js:182:13)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:235:12)
+    at onErrorNT (internal/child_process.js:406:16)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2019-10-08T07:06:56.754Z - info: [ui] Background fetch for 14 repositories took 3.885sec
+2019-10-08T07:07:59.518Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/ryotabs/islandsnow.git - ryotabs (has token)
+2019-10-08T07:08:00.614Z - info: [ui] Executing clone: git -c credential.helper= -c protocol.version=2 clone --recursive --progress -- https://github.com/ryotabs/islandsnow.git /home/brad/GitHub/islandsnow (took 1.028s)
+2019-10-08T07:08:00.635Z - info: [ui] [AppStore] adding repository at /home/brad/GitHub/islandsnow to store
+2019-10-08T07:08:01.157Z - info: [ui] [BranchPruner] No branches to prune.
+2019-10-08T07:08:01.216Z - info: [ui] [BranchPruner] Last prune took place in a day - skipping
+2019-10-08T07:08:02.129Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.055s)
+2019-10-08T07:21:57.924Z - info: [ui] Background fetch for 14 repositories took 5.057sec
+2019-10-08T07:36:57.067Z - info: [ui] Background fetch for 14 repositories took 4.200sec
+2019-10-08T07:37:01.907Z - info: [ui] [Timing] Action 'create commit' for 'ryotabs/islandsnow' took 0.426s
+2019-10-08T07:37:05.951Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: islandsnow - ryotabs (has token)
+2019-10-08T07:37:09.871Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin master:master --progress (took 3.837s)
+2019-10-08T07:39:54.136Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: islandsnow - ryotabs (has token)
+2019-10-08T07:39:54.481Z - info: [ui] [Timing] Action 'create branch' for 'ryotabs/islandsnow' took 0.412s
+2019-10-08T07:39:58.383Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: islandsnow - ryotabs (has token)
+2019-10-08T07:40:02.176Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin middle-1 --set-upstream --progress (took 3.721s)
+2019-10-08T07:40:03.382Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.156s)
+2019-10-08T07:51:54.903Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 1.193s)
+2019-10-08T07:51:59.787Z - info: [ui] Background fetch for 14 repositories took 6.919sec
+2019-10-08T08:06:56.753Z - info: [ui] Background fetch for 14 repositories took 3.887sec
+2019-10-08T08:10:03.545Z - info: [ui] [Timing] Action 'create commit' for 'ryotabs/islandsnow' took 0.433s
+2019-10-08T08:10:05.853Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: islandsnow - ryotabs (has token)
+2019-10-08T08:10:09.855Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin middle-1:middle-1 --progress (took 3.941s)
+2019-10-08T08:20:27.640Z - info: [main] opening in browser: https://github.com/ryotabs/islandsnow/pull/new/middle-1
+2019-10-08T08:21:57.268Z - info: [ui] Background fetch for 14 repositories took 4.401sec
+2019-10-08T08:37:04.799Z - info: [ui] Background fetch for 14 repositories took 11.932sec
+2019-10-08T08:42:41.699Z - info: [ui] [Timing] Action 'checkout branch from list' for 'ryotabs/islandsnow' took 0.001s
+2019-10-08T08:42:46.698Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: islandsnow - ryotabs (has token)
+2019-10-08T08:42:47.255Z - info: [ui] [Timing] Action 'stash and checkout' for 'ryotabs/islandsnow' took 0.558s
+2019-10-08T08:42:54.203Z - info: [ui] [Timing] Action 'create branch' for 'ryotabs/islandsnow' took 0.061s
+2019-10-08T08:42:56.261Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: islandsnow - ryotabs (has token)
+2019-10-08T08:42:56.970Z - info: [ui] [Timing] Action 'stash and checkout' for 'ryotabs/islandsnow' took 0.698s
+2019-10-08T08:43:06.397Z - info: [ui] [Timing] Action 'create commit' for 'ryotabs/islandsnow' took 0.460s
+2019-10-08T08:43:07.800Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: islandsnow - ryotabs (has token)
+2019-10-08T08:43:11.946Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin footer-1 --set-upstream --progress (took 4.079s)
+2019-10-08T14:11:35.730Z - info: [ui] [AppStore] loading 14 repositories from store
+2019-10-08T14:11:35.732Z - info: [ui] [AppStore] found account: ryotabs (Ryota Seki)
+2019-10-08T14:11:36.238Z - info: [ui] [BranchPruner] Pruning 0 branches that have been merged into the default branch, master (e85c6575978dbf46978ee96a809034548823dc63), from 'islandsnow
+2019-10-08T14:11:36.333Z - info: [ui] launching: 2.1.0-linux1 (Linux 5.2.14-arch2-1-ARCH)
+2019-10-08T14:11:36.333Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2019-10-08T14:12:33.886Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/ryotabs/your-choice.git - ryotabs (has token)
+2019-10-08T14:12:34.907Z - info: [ui] [AppStore] adding repository at /home/brad/GitHub/your-choice to store
+2019-10-08T14:12:35.227Z - info: [ui] [BranchPruner] No branches to prune.
+2019-10-08T14:12:35.808Z - info: [ui] [BranchPruner] No branches to prune.
+2019-10-08T14:13:38.310Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 1.896s)
+2019-10-08T14:13:41.950Z - info: [ui] Background fetch for 15 repositories took 6.164sec
+2019-10-08T14:28:46.344Z - info: [ui] Background fetch for 15 repositories took 4.393sec
+2019-10-08T14:43:46.578Z - info: [ui] Background fetch for 15 repositories took 4.627sec
+2019-10-08T14:58:46.769Z - info: [ui] Background fetch for 15 repositories took 4.817sec
+2019-10-08T15:13:46.200Z - info: [ui] Background fetch for 15 repositories took 4.248sec
+2019-10-08T15:28:45.989Z - info: [ui] Background fetch for 15 repositories took 4.037sec
+2019-10-08T15:43:46.742Z - info: [ui] Background fetch for 15 repositories took 4.791sec
+2019-10-08T15:58:47.068Z - info: [ui] Background fetch for 15 repositories took 5.117sec
+2019-10-08T16:13:46.879Z - info: [ui] Background fetch for 15 repositories took 4.927sec
+2019-10-08T16:28:46.312Z - info: [ui] Background fetch for 15 repositories took 4.359sec
+2019-10-08T16:43:46.660Z - info: [ui] Background fetch for 15 repositories took 4.708sec
+2019-10-08T16:58:46.411Z - info: [ui] Background fetch for 15 repositories took 4.460sec
+2019-10-08T17:13:46.646Z - info: [ui] Background fetch for 15 repositories took 4.695sec
+2019-10-08T17:28:47.936Z - info: [ui] Background fetch for 15 repositories took 5.985sec
+2019-10-08T17:43:46.223Z - info: [ui] Background fetch for 15 repositories took 4.273sec
+2019-10-08T17:58:46.246Z - info: [ui] Background fetch for 15 repositories took 4.295sec
+2019-10-08T18:02:20.755Z - info: [ui] [Timing] Action 'create commit' for 'ryotabs/your-choice' took 0.578s
+2019-10-08T18:02:23.137Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: your-choice - ryotabs (has token)
+2019-10-08T18:02:27.658Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin master:master --progress (took 4.431s)
+2019-10-08T20:43:22.894Z - info: [ui] [AppStore] loading 15 repositories from store
+2019-10-08T20:43:22.898Z - info: [ui] [AppStore] found account: ryotabs (Ryota Seki)
+2019-10-08T20:43:22.987Z - info: [ui] [BranchPruner] Last prune took place in 17 hours - skipping
+2019-10-08T20:43:23.512Z - warn: [ui] Error refreshing account 'ryotabs'
+Error: Cannot update an account which doesn't have a token: ryotabs
+    at Object.n [as fatalError] (/home/brad/webpack:/external "path":1:1)
+    at o (/home/brad/webpack:/app/src/lib/stores/accounts-store.ts:217:7)
+    at l.tryUpdateAccount (/home/brad/webpack:/app/src/lib/stores/accounts-store.ts:139:6)
+    at accounts.Promise.all.accounts.map (/home/brad/webpack:/app/src/lib/stores/accounts-store.ts:121:5)
+    at Array.map (<anonymous>)
+    at l.refresh (/home/brad/webpack:/app/src/lib/stores/accounts-store.ts:118:21)
+    at ze.loadInitialState (/home/brad/webpack:/app/src/lib/stores/app-store.ts:1685:4)
+2019-10-08T20:43:24.552Z - info: [ui] launching: 2.1.0-linux1 (Linux 5.2.14-arch2-1-ARCH)
+2019-10-08T20:43:24.552Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2019-10-08T20:43:29.254Z - warn: [ui] fetchAll: 'user/repos' returned a 401
+2019-10-08T20:43:34.049Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/ryotabs/murphys.git - ryotabs (empty token)
+2019-10-08T20:43:35.394Z - info: [ui] Executing clone: git -c credential.helper= -c protocol.version=2 clone --recursive --progress -- https://github.com/ryotabs/murphys.git /home/brad/GitHub/murphys (took 1.069s)
+2019-10-08T20:43:35.422Z - info: [ui] [AppStore] adding repository at /home/brad/GitHub/murphys to store
+2019-10-08T20:43:35.866Z - info: [ui] [BranchPruner] No branches to prune.
+2019-10-08T20:43:36.710Z - info: [ui] [BranchPruner] No branches to prune.
+2019-10-08T20:45:27.116Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 3.161s)
+2019-10-08T20:45:28.980Z - warn: [ui] fetchRepository: 'ryotabs/fiberoo' returned a 404
+2019-10-08T20:45:29.159Z - warn: [ui] fetchRepository: 'ryotabs/fiberoo' returned a 404
+2019-10-08T20:45:29.161Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: fiberoo - ryotabs (empty token)
+2019-10-08T20:45:35.571Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 6.368s)
+2019-10-08T20:45:35.796Z - info: [ui] [fetchProtectedBranches] unable to list protected branches
+Error: Not Found
+    at Object.t.parsedResponse (/home/brad/webpack:/app/src/lib/http.ts:171:4)
+2019-10-08T20:45:36.545Z - warn: [ui] fetchRepository: 'ryotabs/library-security' returned a 404
+2019-10-08T20:45:36.720Z - warn: [ui] fetchRepository: 'ryotabs/library-security' returned a 404
+2019-10-08T20:45:36.722Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: library-security - ryotabs (empty token)
+2019-10-08T20:45:38.396Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.633s)
+2019-10-08T20:45:38.607Z - info: [ui] [fetchProtectedBranches] unable to list protected branches
+Error: Not Found
+    at Object.t.parsedResponse (/home/brad/webpack:/app/src/lib/http.ts:171:4)
+2019-10-08T20:45:39.480Z - warn: [ui] fetchRepository: 'ryotabs/fivetimes' returned a 404
+2019-10-08T20:45:39.655Z - warn: [ui] fetchRepository: 'ryotabs/fivetimes' returned a 404
+2019-10-08T20:45:39.656Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: fivetimes - ryotabs (empty token)
+2019-10-08T20:45:41.171Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.482s)
+2019-10-08T20:45:41.424Z - info: [ui] [fetchProtectedBranches] unable to list protected branches
+Error: Not Found
+    at Object.t.parsedResponse (/home/brad/webpack:/app/src/lib/http.ts:171:4)
+2019-10-08T20:45:42.077Z - warn: [ui] fetchRepository: 'ryotabs/browserhistory' returned a 404
+2019-10-08T20:45:42.346Z - warn: [ui] fetchRepository: 'ryotabs/browserhistory' returned a 404
+2019-10-08T20:45:42.348Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: browserhistory - ryotabs (empty token)
+2019-10-08T20:45:43.958Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.570s)
+2019-10-08T20:45:44.189Z - info: [ui] [fetchProtectedBranches] unable to list protected branches
+Error: Not Found
+    at Object.t.parsedResponse (/home/brad/webpack:/app/src/lib/http.ts:171:4)
+2019-10-08T20:45:45.183Z - warn: [ui] fetchRepository: 'ryotabs/ics-code' returned a 404
+2019-10-08T20:45:45.361Z - warn: [ui] fetchRepository: 'ryotabs/ics-code' returned a 404
+2019-10-08T20:45:45.362Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: ics-code - ryotabs (empty token)
+2019-10-08T20:45:46.974Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.573s)
+2019-10-08T20:45:47.466Z - info: [ui] [fetchProtectedBranches] unable to list protected branches
+Error: Not Found
+    at Object.t.parsedResponse (/home/brad/webpack:/app/src/lib/http.ts:171:4)
+2019-10-08T20:45:48.917Z - info: [ui] Background fetch for 16 repositories took 25.859sec
+2019-10-08T21:00:51.930Z - warn: [ui] fetchRepository: 'ryotabs/fiberoo' returned a 404
+2019-10-08T21:00:52.110Z - warn: [ui] fetchRepository: 'ryotabs/fiberoo' returned a 404
+2019-10-08T21:00:52.465Z - warn: [ui] fetchRepository: 'ryotabs/library-security' returned a 404
+2019-10-08T21:00:52.640Z - warn: [ui] fetchRepository: 'ryotabs/library-security' returned a 404
+2019-10-08T21:00:52.898Z - warn: [ui] fetchRepository: 'ryotabs/fivetimes' returned a 404
+2019-10-08T21:00:53.181Z - warn: [ui] fetchRepository: 'ryotabs/fivetimes' returned a 404
+2019-10-08T21:00:53.435Z - warn: [ui] fetchRepository: 'ryotabs/browserhistory' returned a 404
+2019-10-08T21:00:53.612Z - warn: [ui] fetchRepository: 'ryotabs/browserhistory' returned a 404
+2019-10-08T21:00:54.147Z - warn: [ui] fetchRepository: 'ryotabs/ics-code' returned a 404
+2019-10-08T21:00:54.410Z - warn: [ui] fetchRepository: 'ryotabs/ics-code' returned a 404
+2019-10-08T21:00:55.340Z - info: [ui] Background fetch for 16 repositories took 6.421sec
+2019-10-08T21:15:51.997Z - warn: [ui] fetchRepository: 'ryotabs/fiberoo' returned a 404
+2019-10-08T21:15:52.173Z - warn: [ui] fetchRepository: 'ryotabs/fiberoo' returned a 404
+2019-10-08T21:15:52.175Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: fiberoo - ryotabs (empty token)
+2019-10-08T21:15:53.870Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.648s)
+2019-10-08T21:15:54.071Z - info: [ui] [fetchProtectedBranches] unable to list protected branches
+Error: Not Found
+    at Object.t.parsedResponse (/home/brad/webpack:/app/src/lib/http.ts:171:4)
+2019-10-08T21:15:54.530Z - warn: [ui] fetchRepository: 'ryotabs/library-security' returned a 404
+2019-10-08T21:15:54.811Z - warn: [ui] fetchRepository: 'ryotabs/library-security' returned a 404
+2019-10-08T21:15:54.812Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: library-security - ryotabs (empty token)
+2019-10-08T21:15:56.432Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.602s)
+2019-10-08T21:15:56.642Z - info: [ui] [fetchProtectedBranches] unable to list protected branches
+Error: Not Found
+    at Object.t.parsedResponse (/home/brad/webpack:/app/src/lib/http.ts:171:4)
+2019-10-08T21:15:57.146Z - warn: [ui] fetchRepository: 'ryotabs/fivetimes' returned a 404
+2019-10-08T21:15:57.320Z - warn: [ui] fetchRepository: 'ryotabs/fivetimes' returned a 404
+2019-10-08T21:15:57.322Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: fivetimes - ryotabs (empty token)
+2019-10-08T21:15:58.995Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.625s)
+2019-10-08T21:15:59.196Z - info: [ui] [fetchProtectedBranches] unable to list protected branches
+Error: Not Found
+    at Object.t.parsedResponse (/home/brad/webpack:/app/src/lib/http.ts:171:4)
+2019-10-08T21:15:59.708Z - warn: [ui] fetchRepository: 'ryotabs/browserhistory' returned a 404
+2019-10-08T21:15:59.934Z - warn: [ui] fetchRepository: 'ryotabs/browserhistory' returned a 404
+2019-10-08T21:15:59.935Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: browserhistory - ryotabs (empty token)
+2019-10-08T21:16:01.614Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.645s)
+2019-10-08T21:16:01.879Z - info: [ui] [fetchProtectedBranches] unable to list protected branches
+Error: Not Found
+    at Object.t.parsedResponse (/home/brad/webpack:/app/src/lib/http.ts:171:4)
+2019-10-08T21:16:03.108Z - warn: [ui] fetchRepository: 'ryotabs/ics-code' returned a 404
+2019-10-08T21:16:03.282Z - warn: [ui] fetchRepository: 'ryotabs/ics-code' returned a 404
+2019-10-08T21:16:03.283Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: ics-code - ryotabs (empty token)
+2019-10-08T21:16:04.826Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.525s)
+2019-10-08T21:16:05.027Z - info: [ui] [fetchProtectedBranches] unable to list protected branches
+Error: Not Found
+    at Object.t.parsedResponse (/home/brad/webpack:/app/src/lib/http.ts:171:4)
+2019-10-08T21:16:06.391Z - info: [ui] Background fetch for 16 repositories took 17.472sec
+2019-10-08T21:30:51.993Z - warn: [ui] fetchRepository: 'ryotabs/fiberoo' returned a 404
+2019-10-08T21:30:52.165Z - warn: [ui] fetchRepository: 'ryotabs/fiberoo' returned a 404
+2019-10-08T21:30:52.555Z - warn: [ui] fetchRepository: an error occurred for 'ryotabs/library-security'
+Error: API rate limit exceeded for 168.105.94.42. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)
+    at Object.t.parsedResponse (/home/brad/webpack:/app/src/lib/http.ts:171:4)
+2019-10-08T21:30:52.963Z - warn: [ui] fetchRepository: an error occurred for 'ryotabs/library-security'
+Error: API rate limit exceeded for 168.105.94.42. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)
+    at Object.t.parsedResponse (/home/brad/webpack:/app/src/lib/http.ts:171:4)
+2019-10-08T21:30:53.200Z - warn: [ui] fetchRepository: an error occurred for 'ryotabs/fivetimes'
+Error: API rate limit exceeded for 168.105.94.42. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)
+    at Object.t.parsedResponse (/home/brad/webpack:/app/src/lib/http.ts:171:4)
+2019-10-08T21:30:53.369Z - warn: [ui] fetchRepository: an error occurred for 'ryotabs/fivetimes'
+Error: API rate limit exceeded for 168.105.94.42. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)
+    at Object.t.parsedResponse (/home/brad/webpack:/app/src/lib/http.ts:171:4)
+2019-10-08T21:30:53.636Z - warn: [ui] fetchRepository: an error occurred for 'ryotabs/browserhistory'
+Error: API rate limit exceeded for 168.105.94.42. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)
+    at Object.t.parsedResponse (/home/brad/webpack:/app/src/lib/http.ts:171:4)
+2019-10-08T21:30:53.807Z - warn: [ui] fetchRepository: an error occurred for 'ryotabs/browserhistory'
+Error: API rate limit exceeded for 168.105.94.42. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)
+    at Object.t.parsedResponse (/home/brad/webpack:/app/src/lib/http.ts:171:4)
+2019-10-08T21:30:56.446Z - warn: [ui] fetchRepository: an error occurred for 'ryotabs/historyofsurfing'
+Error: API rate limit exceeded for 168.105.94.42. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)
+    at Object.t.parsedResponse (/home/brad/webpack:/app/src/lib/http.ts:171:4)
+2019-10-08T21:30:56.611Z - warn: [ui] fetchRepository: an error occurred for 'ryotabs/historyofsurfing'
+Error: API rate limit exceeded for 168.105.94.42. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)
+    at Object.t.parsedResponse (/home/brad/webpack:/app/src/lib/http.ts:171:4)
+2019-10-08T21:30:56.613Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: historyofsurfing - ryotabs (empty token)
+2019-10-08T21:30:57.657Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.001s)
+2019-10-08T21:30:57.862Z - info: [ui] [fetchProtectedBranches] unable to list protected branches
+Error: API rate limit exceeded for 168.105.94.42. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)
+    at Object.t.parsedResponse (/home/brad/webpack:/app/src/lib/http.ts:171:4)
+2019-10-08T21:30:58.499Z - warn: [ui] fetchRepository: an error occurred for 'ryotabs/ics-code'
+Error: API rate limit exceeded for 168.105.94.42. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)
+    at Object.t.parsedResponse (/home/brad/webpack:/app/src/lib/http.ts:171:4)
+2019-10-08T21:30:58.676Z - warn: [ui] fetchRepository: an error occurred for 'ryotabs/ics-code'
+Error: API rate limit exceeded for 168.105.94.42. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)
+    at Object.t.parsedResponse (/home/brad/webpack:/app/src/lib/http.ts:171:4)
+2019-10-08T21:30:58.935Z - warn: [ui] fetchRepository: an error occurred for 'ryotabs/islandsnow'
+Error: API rate limit exceeded for 168.105.94.42. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)
+    at Object.t.parsedResponse (/home/brad/webpack:/app/src/lib/http.ts:171:4)
+2019-10-08T21:30:59.101Z - warn: [ui] fetchRepository: an error occurred for 'ryotabs/islandsnow'
+Error: API rate limit exceeded for 168.105.94.42. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)
+    at Object.t.parsedResponse (/home/brad/webpack:/app/src/lib/http.ts:171:4)
+2019-10-08T21:30:59.102Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: islandsnow - ryotabs (empty token)
+2019-10-08T21:31:00.438Z - info: [ui] [fetchProtectedBranches] unable to list protected branches
+Error: API rate limit exceeded for 168.105.94.42. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)
+    at Object.t.parsedResponse (/home/brad/webpack:/app/src/lib/http.ts:171:4)
+2019-10-08T21:31:00.961Z - warn: [ui] fetchRepository: an error occurred for 'ryotabs/your-choice'
+Error: API rate limit exceeded for 168.105.94.42. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)
+    at Object.t.parsedResponse (/home/brad/webpack:/app/src/lib/http.ts:171:4)
+2019-10-08T21:31:01.125Z - warn: [ui] fetchRepository: an error occurred for 'ryotabs/your-choice'
+Error: API rate limit exceeded for 168.105.94.42. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)
+    at Object.t.parsedResponse (/home/brad/webpack:/app/src/lib/http.ts:171:4)
+2019-10-08T21:31:01.127Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: your-choice - ryotabs (empty token)
+2019-10-08T21:31:02.780Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.609s)
+2019-10-08T21:31:03.204Z - info: [ui] [fetchProtectedBranches] unable to list protected branches
+Error: API rate limit exceeded for 168.105.94.42. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)
+    at Object.t.parsedResponse (/home/brad/webpack:/app/src/lib/http.ts:171:4)
+2019-10-08T21:31:04.229Z - warn: [ui] fetchRepository: an error occurred for 'ryotabs/murphys'
+Error: API rate limit exceeded for 168.105.94.42. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)
+    at Object.t.parsedResponse (/home/brad/webpack:/app/src/lib/http.ts:171:4)
+2019-10-08T21:31:04.390Z - warn: [ui] fetchRepository: an error occurred for 'ryotabs/murphys'
+Error: API rate limit exceeded for 168.105.94.42. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)
+    at Object.t.parsedResponse (/home/brad/webpack:/app/src/lib/http.ts:171:4)
+2019-10-08T21:31:04.392Z - info: [ui] Background fetch for 16 repositories took 15.473sec
+2019-10-08T21:34:11.519Z - warn: [ui] fetchAll: 'repos/ryotabs/murphys/pulls?state=open' returned a 403
+2019-10-08T21:36:18.307Z - warn: [ui] fetchAll: 'repos/ryotabs/murphys/pulls?state=open' returned a 403
+2019-10-08T21:37:24.198Z - info: [ui] [Timing] Action 'create commit' for 'ryotabs/murphys' took 0.761s
+2019-10-08T21:37:25.473Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: murphys - ryotabs (empty token)
+2019-10-08T21:37:29.701Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin master:master --progress (took 4.159s)
+2019-10-08T21:37:31.002Z - info: [ui] [fetchProtectedBranches] unable to list protected branches
+Error: API rate limit exceeded for 168.105.94.42. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)
+    at Object.t.parsedResponse (/home/brad/webpack:/app/src/lib/http.ts:171:4)
+2019-10-08T21:38:24.952Z - warn: [ui] failed fetching open PRs for repository ryotabs/murphys
+TypeError: Failed to fetch
+2019-10-08T21:38:24.954Z - error: [ui] Error refreshing pull requests for 'ryotabs/murphys'
+TypeError: Failed to fetch
+2019-10-08T21:41:45.346Z - warn: [ui] fetchAll: 'repos/ryotabs/murphys/pulls?state=open' returned a 403

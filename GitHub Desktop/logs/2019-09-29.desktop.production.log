@@ -1,0 +1,20 @@
+2019-09-29T22:26:53.905Z - info: [ui] [AppStore] loading 9 repositories from store
+2019-09-29T22:26:53.907Z - info: [ui] [AppStore] found account: ryotabs (Ryota Seki)
+2019-09-29T22:26:54.830Z - info: [ui] launching: 2.1.0-linux1 (Linux 5.2.14-arch2-1-ARCH)
+2019-09-29T22:26:54.831Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2019-09-29T22:27:11.620Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.510s)
+2019-09-29T22:28:58.531Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 2.352s)
+2019-09-29T22:28:59.332Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: voidrice - ryotabs (has token)
+2019-09-29T22:29:03.984Z - info: [ui] Background fetch for 9 repositories took 9.977sec
+2019-09-29T22:43:55.738Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/ryotabs/browserhistory.git - ryotabs (has token)
+2019-09-29T22:43:56.751Z - info: [ui] [AppStore] adding repository at /home/brad/GitHub/browserhistory to store
+2019-09-29T22:43:57.875Z - info: [ui] [BranchPruner] No branches to prune.
+2019-09-29T22:44:07.623Z - info: [ui] Background fetch for 10 repositories took 3.638sec
+2019-09-29T22:59:07.367Z - info: [ui] Background fetch for 10 repositories took 3.381sec
+2019-09-29T23:07:33.522Z - info: [ui] [Timing] Action 'create commit' for 'ryotabs/browserhistory' took 0.421s
+2019-09-29T23:07:34.502Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: browserhistory - ryotabs (has token)
+2019-09-29T23:07:39.444Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin master:master --progress (took 4.909s)
+2019-09-29T23:09:40.939Z - info: [ui] [Timing] Action 'create commit' for 'ryotabs/browserhistory' took 0.438s
+2019-09-29T23:09:42.364Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: browserhistory - ryotabs (has token)
+2019-09-29T23:09:48.188Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin master:master --progress (took 5.753s)
+2019-09-29T23:14:07.204Z - info: [ui] Background fetch for 10 repositories took 3.218sec

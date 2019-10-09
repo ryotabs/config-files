@@ -1,0 +1,9 @@
+2019-10-02T00:03:14.016Z - error: [ui] `git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin` exited with an unexpected code: 128.
+stderr:
+fatal: unable to access 'https://github.com/ryotabs/historyofsurfing.git/': Could not resolve host: github.com
+
+2019-10-02T00:03:14.041Z - info: [ui] [fetchProtectedBranches] unable to list protected branches
+TypeError: Failed to fetch
+2019-10-02T00:03:14.290Z - warn: [ui] getFetchPollInterval: failed for ryotabs/historyofsurfing
+TypeError: Failed to fetch
+2019-10-02T00:54:05.493Z - info: [ui] Background fetch for 11 repositories took 5.344sec

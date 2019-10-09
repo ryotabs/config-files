@@ -1,0 +1,64 @@
+2019-09-22T20:14:17.709Z - info: [ui] [AppStore] loading 3 repositories from store
+2019-09-22T20:14:17.711Z - info: [ui] [AppStore] found account: ryotabs (Ryota Seki)
+2019-09-22T20:14:17.907Z - info: [ui] launching: 2.1.0-linux1 (Linux 5.2.14-arch2-1-ARCH)
+2019-09-22T20:14:17.908Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2019-09-22T20:14:19.735Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 1.813s)
+2019-09-22T20:14:22.383Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 4.662s)
+2019-09-22T20:14:22.572Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 3.913s)
+2019-09-22T20:14:27.955Z - info: [ui] Executing getRecentBranches: git log -g --no-abbrev-commit --pretty=oneline HEAD -n 2500 -- (took 2.614s)
+2019-09-22T20:14:27.956Z - info: [ui] Executing getBranches: git for-each-ref --format=%(refname)%00%(refname:short)%00%(upstream:short)%00%(objectname)%00%(objectname:short)%00%(author)%00%(committer)%00%(parent)%00%(symref)%00%(subject)%00%(body)%00%(trailers:unfold,only)%00%1F refs/heads refs/remotes (took 2.642s)
+2019-09-22T20:14:27.987Z - info: [ui] Executing getWorkingDirectoryDiff: git diff --no-ext-diff --no-index --patch-with-raw -z --no-color -- /dev/null .android/analytics.settings (took 2.705s)
+2019-09-22T20:15:08.872Z - info: [ui] [AppStore] adding repository at /home/brad/GitHub/sumofnumbers/sumofnumbers to store
+2019-09-22T20:15:30.865Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin master --set-upstream --progress (took 5.375s)
+2019-09-22T20:15:32.322Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.405s)
+2019-09-22T20:15:33.654Z - info: [ui] [BranchPruner] No branches to prune.
+2019-09-22T20:16:19.287Z - info: [ui] Background fetch for 4 repositories took 1.518sec
+2019-09-22T20:21:28.457Z - warn: [ui] fetchAll: 'repos/ryotabs/sumofnumbers/pulls?state=open' returned a 404
+2019-09-22T20:22:18.265Z - info: [ui] [AppStore] adding repository at /home/brad to store
+2019-09-22T20:22:19.002Z - info: [ui] [BranchPruner] No branches to prune.
+2019-09-22T20:22:20.688Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.745s)
+2019-09-22T20:22:22.701Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 1.848s)
+2019-09-22T20:23:24.061Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/ryotabs/sumofnumbers.git - ryotabs (has token)
+2019-09-22T20:23:25.272Z - info: [ui] Executing clone: git -c credential.helper= -c protocol.version=2 clone --recursive --progress -- https://github.com/ryotabs/sumofnumbers.git /home/brad/GitHub/sumofnumbers (took 1.105s)
+2019-09-22T20:23:25.300Z - info: [ui] [AppStore] adding repository at /home/brad/GitHub/sumofnumbers to store
+2019-09-22T20:23:26.627Z - info: [ui] [BranchPruner] No branches to prune.
+2019-09-22T20:28:16.796Z - info: [ui] [BranchPruner] No branches to prune.
+2019-09-22T20:46:38.958Z - info: [ui] [AppStore] loading 4 repositories from store
+2019-09-22T20:46:38.959Z - info: [ui] [AppStore] found account: ryotabs (Ryota Seki)
+2019-09-22T20:46:39.399Z - info: [ui] [BranchPruner] No branches to prune.
+2019-09-22T20:46:39.458Z - info: [ui] launching: 2.1.0-linux1 (Linux 5.2.14-arch2-1-ARCH)
+2019-09-22T20:46:39.458Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2019-09-22T20:47:06.220Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/ryotabs/sumofnumbers.git - ryotabs (has token)
+2019-09-22T20:47:07.310Z - info: [ui] Executing clone: git -c credential.helper= -c protocol.version=2 clone --recursive --progress -- https://github.com/ryotabs/sumofnumbers.git /home/brad/GitHub/sumofnumbers (took 1.039s)
+2019-09-22T20:47:07.339Z - info: [ui] [AppStore] adding repository at /home/brad/GitHub/sumofnumbers to store
+2019-09-22T20:47:08.046Z - info: [ui] [BranchPruner] No branches to prune.
+2019-09-22T20:48:40.824Z - info: [ui] Background fetch for 5 repositories took 1.816sec
+2019-09-22T21:03:42.402Z - info: [ui] Background fetch for 5 repositories took 1.576sec
+2019-09-22T21:18:42.892Z - info: [ui] Background fetch for 5 repositories took 2.066sec
+2019-09-22T21:22:09.650Z - info: [ui] Executing updateIndex: git update-index --add --remove --replace -z --stdin (took 1.069s)
+2019-09-22T21:22:10.315Z - info: [ui] [Timing] Action 'create commit' for 'ryotabs/sumofnumbers' took 1.989s
+2019-09-22T21:22:11.525Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: sumofnumbers - ryotabs (has token)
+2019-09-22T21:22:18.028Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin master:master --progress (took 6.448s)
+2019-09-22T21:23:26.715Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: sumofnumbers - ryotabs (has token)
+2019-09-22T21:23:27.030Z - info: [ui] [Timing] Action 'create branch' for 'ryotabs/sumofnumbers' took 0.396s
+2019-09-22T21:24:39.596Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: sumofnumbers - ryotabs (has token)
+2019-09-22T21:24:45.420Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin attemp2 --set-upstream --progress (took 5.757s)
+2019-09-22T21:31:39.541Z - info: [ui] [BranchPruner] Last prune took place in a day - skipping
+2019-09-22T21:33:42.289Z - info: [ui] Background fetch for 4 repositories took 1.463sec
+2019-09-22T21:35:28.553Z - info: [ui] [AppStore] adding repository at /home/brad/GitHub/sumofnumbers to store
+2019-09-22T21:40:55.560Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.220s)
+2019-09-22T21:48:42.799Z - info: [ui] Background fetch for 5 repositories took 1.974sec
+2019-09-22T22:03:42.888Z - info: [ui] Background fetch for 5 repositories took 2.062sec
+2019-09-22T22:18:42.476Z - info: [ui] Background fetch for 5 repositories took 1.651sec
+2019-09-22T22:33:43.144Z - info: [ui] Background fetch for 5 repositories took 2.318sec
+2019-09-22T22:48:42.604Z - info: [ui] Background fetch for 5 repositories took 1.778sec
+2019-09-22T23:03:42.882Z - info: [ui] Background fetch for 5 repositories took 2.057sec
+2019-09-22T23:07:27.788Z - info: [ui] [BranchPruner] No branches to prune.
+2019-09-22T23:10:50.091Z - info: [ui] [AppStore] adding repository at /home/brad/GitHub/sumofnumbers to store
+2019-09-22T23:18:42.477Z - info: [ui] Background fetch for 5 repositories took 1.651sec
+2019-09-22T23:21:41.339Z - info: [ui] [Timing] Action 'create commit' for 'ryotabs/sumofnumbers' took 1.525s
+2019-09-22T23:21:44.402Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: sumofnumbers - ryotabs (has token)
+2019-09-22T23:21:51.720Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin master:master --progress (took 7.250s)
+2019-09-22T23:33:42.697Z - info: [ui] Background fetch for 5 repositories took 1.870sec
+2019-09-22T23:48:42.473Z - info: [ui] Background fetch for 5 repositories took 1.647sec
+2019-09-22T23:54:10.917Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.141s)

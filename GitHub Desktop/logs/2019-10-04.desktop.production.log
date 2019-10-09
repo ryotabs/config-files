@@ -1,0 +1,16 @@
+2019-10-04T01:07:28.885Z - info: [ui] [AppStore] loading 12 repositories from store
+2019-10-04T01:07:28.886Z - info: [ui] [AppStore] found account: ryotabs (Ryota Seki)
+2019-10-04T01:07:28.921Z - info: [ui] [BranchPruner] Last prune took place in 20 hours - skipping
+2019-10-04T01:07:29.772Z - info: [ui] launching: 2.1.0-linux1 (Linux 5.2.14-arch2-1-ARCH)
+2019-10-04T01:07:29.772Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2019-10-04T01:07:55.327Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.839s)
+2019-10-04T01:09:12.445Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/ryotabs/314essay-lint.git - ryotabs (has token)
+2019-10-04T01:09:13.786Z - info: [ui] Executing clone: git -c credential.helper= -c protocol.version=2 clone --recursive --progress -- https://github.com/ryotabs/314essay-lint.git /home/brad/GitHub/314essay-lint (took 1.033s)
+2019-10-04T01:09:13.814Z - info: [ui] [AppStore] adding repository at /home/brad/GitHub/314essay-lint to store
+2019-10-04T01:09:14.933Z - info: [ui] [BranchPruner] No branches to prune.
+2019-10-04T01:09:34.420Z - info: [ui] Background fetch for 13 repositories took 5.438sec
+2019-10-04T01:23:48.429Z - info: [ui] [Timing] Action 'create commit' for 'ryotabs/314essay-lint' took 0.702s
+2019-10-04T01:23:50.578Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 314essay-lint - ryotabs (has token)
+2019-10-04T01:23:54.719Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin master:master --progress (took 4.058s)
+2019-10-04T01:24:39.792Z - info: [ui] Background fetch for 13 repositories took 5.370sec
+2019-10-04T01:38:46.382Z - warn: [ui] fetchAll: 'repos/ryotabs/314essay-lint/pulls?state=open' returned a 404
